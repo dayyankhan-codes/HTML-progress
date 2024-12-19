@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px;
+        }
+        #message {
+            font-size: 20px;
+            color: red;
+            margin-top: 20px;
+        }
+        #changeButton{
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: aquamarine;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #changeButton:hover{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Javascript DOM basics</h1>
+    <p id="message">This is the original text</p>
+    <button id="changeButton">Click to change text</button>
+
+    <script>
+        const message = document.getElementById("message");
+        const button = document.getElementById("changeButton");
+
+        button.addEventListener("click", function(){
+            message.textContent = "The text has been changed!";
+
+            message.style.color = "green";
+            message.style.fontSize = "24px";
+            message.style.fontWeight = "bold";
+        });
+    </script>
+</body>
+</html>
