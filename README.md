@@ -11,7 +11,7 @@ Welcome to the HTML Progress repository! This repository serves as a personal wo
 
 ## Projects Included
 
-- Here you will find:
+Here you will find:
 
 - Class Assignments: Solutions to exercises given in class.
 
