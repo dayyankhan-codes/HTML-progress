@@ -1,0 +1,17 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+.nav-links a, .logo{
+    color: #fff;
+    text-decoration: none;
+}
