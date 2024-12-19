@@ -1,2 +1,20 @@
 # HTML-progress
-A personal repository to track my progress while learning HTML. Contains practice code, class projects and more as i learn web development.
+Welcome to the HTML Progress repository! This repository serves as a personal workspace where I will practice coding and upload the projects completed during class.
+
+Repository Purpose
+
+Learning: Document my progress as I learn HTML and related web development concepts.
+
+Practice: Store coding exercises and mini-projects done in class.
+
+Showcase: Share my completed projects with others for feedback and improvement.
+
+Projects Included
+
+Here you will find:
+
+Class Assignments: Solutions to exercises given in class.
+
+Mini Projects: Hands-on projects to apply what I’ve learned.
+
+Additional Practice: Self-motivated coding tasks and experiments.
