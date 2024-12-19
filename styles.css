@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgb(195, 168, 245);
+}
+header{
+    background: #0062ff;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 90px;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{ 
+    list-style: none;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 21px;
+}
+nav a:hover{
+    background: rgb(103, 103, 230);
+
+}
+nav .dropdown-menu{
+    position: absolute;
+    background: #1458c4;
+    min-width: 150px;
+    display: none;
+}
+nav .dropdown-menu li{
+    display: block;
+
+}
+nav li:hover .dropdown-menu{
+    display: block;
+}
