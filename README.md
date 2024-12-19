@@ -1,5 +1,5 @@
 # HTML-progress
-Welcome to the HTML Progress repository! This repository serves as a personal workspace where I will practice coding and upload the projects completed during class.
+Welcome to the HTML Progress repository! This repository serves as a personal workspace where I will practice coding and upload the projects.
 
 ## Repository Purpose
 
