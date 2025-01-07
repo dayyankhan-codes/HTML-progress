@@ -14,8 +14,8 @@ const phoneError = document.getElementById("phoneError");
 // Validation functions
 function validateName() {
     const name = nameInput.value.trim();
-    if (name.length < 3) {
-        nameError.textContent = "Name must be at least 3 characters long.";
+    if (name.length < 2) {
+        nameError.textContent = "Name must be at least 2 characters long.";
         nameInput.classList.add("error");
         return false;
     } else {
