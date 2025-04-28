@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire Survey</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="survey-container">
+        <h1>Survey Form</h1>
+        <form id="surveyForm" action="#" method="post">
+            <div class="question">
+                <p>1. What is your favorite color?</p>
+                <input type="radio" name="color" value="Red" required> Red
+                <input type="radio" name="color" value="Blue" required> Blue
+                <input type="radio" name="color" value="Green" required> Green
+            </div>
+
+            <div class="question">
+                <p>2. What is your favorite food?</p>
+                <input type="radio" name="food" value="Pizza" required> Pizza
+                <input type="radio" name="food" value="Burger" required> Burger
+                <input type="radio" name="food" value="Sandwich" required> Sandwich
+            </div>
+
+            <div class="question">
+                <p>3. What is your favorite sport?</p>
+                <input type="radio" name="sport" value="Cricket" required> Cricket
+                <input type="radio" name="sport" value="Football" required> Football
+                <input type="radio" name="sport" value="Badminton" required> Badminton
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="survey-container">
+        <h2>Survey Results</h2>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Favorite Color</th>
+                    <th>Favorite Food</th>
+                    <th>Favorite Sport</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
